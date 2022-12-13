@@ -1,0 +1,31 @@
+{
+  "name": "nijoplus",
+  "version": "1.0.0",
+  "description": "WebRTC Protocol for the Nijo+ application and server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RAMPAGEXP/NijoPlus.git"
+  },
+  "keywords": [
+    "Node.js",
+    "WebRTC"
+  ],
+  "author": "RAMPAGEXP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RAMPAGEXP/NijoPlus/issues"
+  },
+  "homepage": "https://github.com/RAMPAGEXP/NijoPlus#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "peer": "^0.6.1",
+    "socket.io": "^4.5.4",
+    "uuid": "^9.0.0"
+  }
+}
